@@ -6,9 +6,9 @@
 	<link rel="stylesheet" href="css/basics.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
-	<a href="/php-pdo/read.php">Liste des données</a>
+	<a href="read.php">Liste des données</a>
 	<h1>Ajouter</h1>
-	<form action="" method="post">
+	<form action="script.php" method="post">
 		<div>
 			<label for="name">Name</label>
 			<input type="text" name="name" value="">
@@ -24,20 +24,23 @@
 				<option value="tres difficile">Très difficile</option>
 			</select>
 		</div>
-		
+
 		<div>
 			<label for="distance">Distance</label>
 			<input type="text" name="distance" value="">
 		</div>
+
 		<div>
 			<label for="duration">Durée</label>
-			<input type="duration" name="duration" value="">
+			<input type="time" name="duration" value="">
 		</div>
+
 		<div>
 			<label for="height_difference">Dénivelé</label>
 			<input type="text" name="height_difference" value="">
 		</div>
 		<button type="submit" name="button">Valider</button>
 	</form>
-</body>
-</html>
+	</body>
+
+	</html>
